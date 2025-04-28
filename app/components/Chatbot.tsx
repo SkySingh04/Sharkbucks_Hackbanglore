@@ -26,7 +26,7 @@ const Chatbot = () => {
       ]);
 
       const genAI = new GoogleGenerativeAI(geminiAPIKEY);
-          const model = genAI.getGenerativeModel({ model: "gemini-1.0-pro" });
+          const model = genAI.getGenerativeModel({ model: "gemini-pro" });
           const generationConfig = {
                   temperature: 1,
                   topK: 0,
